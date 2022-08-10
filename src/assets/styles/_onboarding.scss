@@ -1,0 +1,57 @@
+.logo_continer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .brand_name{
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000;
+        font-weight: 650;
+        font-style: normal;
+        padding-top: 5px;
+        margin-left: 5px;        
+    }     
+}
+.label{
+    font-weight: 500;
+    color: #2a2a2c;
+}
+.button{
+    background-color: #5851d3 !important;
+    .button:focus{
+        outline: none !important;        
+    }
+}
+.heading{
+    font-weight: 600;
+}
+
+.default-text{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.default-text-input{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.cards{
+    width:100%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+}
+.check{
+    padding: 20px;
+    background: #5851d3;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
