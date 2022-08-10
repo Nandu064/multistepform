@@ -11,7 +11,7 @@ import Progressbar from "./progressbar";
 
 function OnBoardingflow() {
   const [currentStep, setCurrentStep] = useState(0);
-  const [type, setType] = useState("");
+  const [type, setType] = useState("individual");
   const [finalData, setFinalData] = useState({});
   const setFormdata = (e) => {
     setFinalData({
